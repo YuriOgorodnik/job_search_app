@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "course-home-work-4"
+version = "0.1.0"
+description = ""
+authors = ["User <yuri.ogorodnik@mail.ru>"]
+readme = "README.md"
+packages = [{include = "course_home_work_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pycbrf = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
